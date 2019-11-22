@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	<title>The Constellation Forum | Gallery Page</title>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Merriweather|Parisienne&display=swap" rel="stylesheet">
+
+	<!-- animated css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+	<!-- fav icon -->
+	<link rel="icon" type="image/gif/png" href="assets/images/favicon1.png">
+
+	<!-- fontawesome icons -->
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+	<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+	<div class="container-fluid px-0 galleryOuterDiv"><!-- white space (padding) on left and right of 15px as default of container fluid, use px to remove padding on x axis -->
+		<nav id="navbar" class="navbar navbar-expand-sm sticky-top mx-0 my-0">
+					<!-- bg-colorcode define customization of the nav, don't add -->
+			<a href="" class="navbar-brand">
+				<img class="m-0 logoImage" src="assets/images/logo-true.png">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+				<span class="navbar-toggler-icon"></span>
+						<!-- <i class="far fa-hand-peace"></i> -->
+			</button>
+
+			<div id="navbar-nav" class="collapse navbar-collapse">
+				<ul class="navbar-nav ml-auto">
+
+					<li class="nav-item">
+						<a href="home.html" class="nav-link">
+							Home
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="forum.html" class="nav-link">
+							Forum
+						</a>
+					</li>
+					<li class="nav-item active">
+						<a href="gallery.html" class="nav-link active1">
+							Gallery
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="legal.html" class="nav-link">
+							Legal
+						</a>
+					</li>
+					<li class="nav item active">
+						<input type="text" placeholder="Search.." class="searchBar">
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<header id="head-gall" class="card">
+			<h1 class="constellations88 text-center display-5 mx-0 my-0">The 88 Constellations <span class="tobecontinue">(to be continue...)</span></h1>
+		</header>
+<!-- modal1 -->
+		<div class="row mx-0 my-0">
+			<!-- d-none d-sm-block -->
+			<div id="left" class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+				<div class="list-group constellationssignsCategoriesDiv">
+					<h2 class="p-1 constellationssignsCategories">Categories</h2>
+					<a href="#andromeda" class="constellationssigns1 list-group-item list-group-item-action mx-auto">Andromeda</a>
+					<a href="#antlia" class="constellationssigns1 list-group-item list-group-item-action mx-auto">Antlia</a>
+					<a href="#apus" class="constellationssigns1 list-group-item list-group-item-action mx-auto">Apus</a>
+					<a href="#aquarius" class="constellationssigns1 list-group-item list-group-item-action mx-auto">Aquarius</a>
+					<a href="#aquila" class="constellationssigns1 list-group-item list-group-item-action mx-auto">Aquila</a>
+					<a href="#ara" class="constellationssigns1 list-group-item list-group-item-action mx-auto">Ara</a>
+					<a href="#aries" class="constellationssigns1 list-group-item list-group-item-action mx-auto">Aries</a>
+					<a href="#auriga" class="constellationssigns1 list-group-item list-group-item-action mx-auto">Auriga</a>
+					<a href="#bootes" class="constellationssigns1 list-group-item list-group-item-action mx-auto">Boötes</a>
+					<a href="#caelum" class="constellationssigns1 list-group-item list-group-item-action mx-auto">Caelum</a>
+					<a href="#camelopardalis" class="constellationssigns1 list-group-item list-group-item-action mx-auto">Camelopardalis</a>
+					<a href="#cancer" class="constellationssigns1 list-group-item list-group-item-action mx-auto">Cancer</a>
+					<a href="#canes-venatici" class="constellationssigns1 list-group-item list-group-item-action mx-auto">Canes Venatici</a>
+					<a href="#canis-major" class="constellationssigns1 list-group-item list-group-item-action mx-auto">Canis Major</a>
+					<a href="#capricornus" class="constellationssigns1 list-group-item list-group-item-action mx-auto">Capricornus</a>
+					<a href="#carina" class="constellationssigns1 list-group-item list-group-item-action mx-auto">Carina</a>
+				</div>
+			</div><!-- end of left side -->
+		<!-- break point -->
+			
+			<!-- https://in-the-sky.org/ -->
+			<!-- constellations signs images from website seasky.org -->
+			<div id="right" class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+				<div class="container">
+					<div id="galleryItems" class="row mx-auto container-fluid">
+						<div class="gallerycard card col-sm-12 col-md-6 col-lg-4 col-xl-3 px-0" data-toggle="modal" data-target="#modal-1">
+							<div class="gallerycardInner">
+								<img class="constellationssign" src="assets/images/andromeda.jpg" class="card-img-top img-fluid" id="andromeda">
+							</div>
+							<!-- card-img-top 100% width border-radius top left and -->
+							<h3 class="gallerytitle card-title text-center">Andromeda</h3>
+						</div><!-- end of card1 -->
+						<div class="gallerycard card col-sm-12 col-md-6 col-lg-4 col-xl-3 px-0" data-toggle="modal" data-target="#modal-2">
+							<div class="gallerycardInner">
+								<img class="constellationssign" src="assets/images/antlia.jpg" class="card-img-top img-fluid" id="antlia">
+							</div>
+							<!-- card-img-top 100% width border-radius top left and -->
+							<h3 class="gallerytitle card-title text-center">Antlia</h3>
+						</div><!-- end of card2 -->
+						<div class="gallerycard card col-sm-12 col-md-6 col-lg-4 col-xl-3 px-0" data-toggle="modal" data-target="#modal-3">
+							<div class="gallerycardInner">
+								<img class="constellationssign" src="assets/images/apus.jpg" class="card-img-top img-fluid" id="apus">
+							</div>
+							<!-- card-img-top 100% width border-radius top left and -->
+							<h3 class="gallerytitle card-title text-center">Apus</h3>
+						</div><!-- end of card3 -->
+						<div class="gallerycard card col-sm-12 col-md-6 col-lg-4 col-xl-3 px-0" data-toggle="modal" data-target="#modal-4">
+							<div class="gallerycardInner">
+								<img class="constellationssign" src="assets/images/aquarius1.jpg" class="card-img-top img-fluid" id="aquarius">
+							</div>
+							<!-- card-img-top 100% width border-radius top left and -->
+							<h3 class="gallerytitle card-title text-center">Aquarius</h3>
+						</div><!-- end of card4 -->
+						<div class="gallerycard card col-sm-12 col-md-6 col-lg-4 col-xl-3 px-0" data-toggle="modal" data-target="#modal-5">
+							<div class="gallerycardInner">
+								<img class="constellationssign" src="assets/images/aquila.jpg" class="card-img-top img-fluid" id="aquila">
+							</div>
+							<!-- card-img-top 100% width border-radius top left and -->
+							<h3 class="gallerytitle card-title text-center">Aquila</h3>
+						</div><!-- end of card5 -->
+						<div class="gallerycard card col-sm-12 col-md-6 col-lg-4 col-xl-3 px-0" data-toggle="modal" data-target="#modal-6">
+							<div class="gallerycardInner">
+								<img class="constellationssign" src="assets/images/ara.jpg" class="card-img-top img-fluid" id="ara">
+							</div>
+							<!-- card-img-top 100% width border-radius top left and -->
+							<h3 class="gallerytitle card-title text-center">Ara</h3>
+						</div><!-- end of card6 -->
+						<div class="gallerycard card col-sm-12 col-md-6 col-lg-4 col-xl-3 px-0" data-toggle="modal" data-target="#modal-7">
+							<div class="gallerycardInner">
+								<img class="constellationssign" src="assets/images/aries.jpg" class="card-img-top img-fluid" id="aries">
+							</div>
+							<!-- card-img-top 100% width border-radius top left and -->
+							<h3 class="gallerytitle card-title text-center">Aries</h3>
+						</div><!-- end of card7 -->
+						<div class="gallerycard card col-sm-12 col-md-6 col-lg-4 col-xl-3 px-0" data-toggle="modal" data-target="#modal-8">
+							<div class="gallerycardInner">
+								<img class="constellationssign" src="assets/images/auriga.jpg" class="card-img-top img-fluid" id="auriga">
+							</div>
+							<!-- card-img-top 100% width border-radius top left and -->
+							<h3 class="gallerytitle card-title text-center">Auriga</h3>
+						</div><!-- end of card8 -->
+						<div class="gallerycard card col-sm-12 col-md-6 col-lg-4 col-xl-3 px-0" data-toggle="modal" data-target="#modal-9">
+							<div class="gallerycardInner">
+								<img class="constellationssign" src="assets/images/bootes.jpg" class="card-img-top img-fluid" id="bootes">
+							</div>
+							<!-- card-img-top 100% width border-radius top left and -->
+							<h3 class="gallerytitle card-title text-center">Boötes</h3>
+						</div><!-- end of card9 -->
+						<div class="gallerycard card col-sm-12 col-md-6 col-lg-4 col-xl-3 px-0" data-toggle="modal" data-target="#modal-10">
+							<div class="gallerycardInner">
+								<img class="constellationssign" src="assets/images/caelum.jpg" class="card-img-top img-fluid" id="caelum">
+							</div>
+							<!-- card-img-top 100% width border-radius top left and -->
+							<h3 class="gallerytitle card-title text-center">Caelum</h3>
+						</div><!-- end of card10 -->
+						<div class="gallerycard card col-sm-12 col-md-6 col-lg-4 col-xl-3 px-0" data-toggle="modal" data-target="#modal-11">
+							<div class="gallerycardInner">
+								<img class="constellationssign" src="assets/images/camelopardalis.jpg" class="card-img-top img-fluid" id="camelopardalis">
+							</div>
+							<!-- card-img-top 100% width border-radius top left and -->
+							<h3 class="gallerytitle card-title text-center">Camelopardalis</h3>
+						</div><!-- end of card11 -->
+						<div class="gallerycard card col-sm-12 col-md-6 col-lg-4 col-xl-3 px-0" data-toggle="modal" data-target="#modal-12">
+							<div class="gallerycardInner">
+								<img class="constellationssign" src="assets/images/cancer.jpg" class="card-img-top img-fluid" id="cancer">
+							</div>
+							<!-- card-img-top 100% width border-radius top left and -->
+							<h3 class="gallerytitle card-title text-center">Cancer</h3>
+						</div><!-- end of card12 -->
+						<div class="gallerycard card col-sm-12 col-md-6 col-lg-4 col-xl-3 px-0" data-toggle="modal" data-target="#modal-13">
+							<div class="gallerycardInner">
+								<img class="constellationssign" src="assets/images/canes-venatici.jpg" class="card-img-top img-fluid" id="canes-venatici">
+							</div>
+							<!-- card-img-top 100% width border-radius top left and -->
+							<h3 class="gallerytitle card-title text-center">Canes Venatici</h3>
+						</div><!-- end of card13 -->
+						<div class="gallerycard card col-sm-12 col-md-6 col-lg-4 col-xl-3 px-0" data-toggle="modal" data-target="#modal-14">
+							<div class="gallerycardInner">
+								<img class="constellationssign" src="assets/images/canis-major.jpg" class="card-img-top img-fluid" id="canis-major">
+							</div>
+							<!-- card-img-top 100% width border-radius top left and -->
+							<h3 class="gallerytitle card-title text-center">Canis Major
+							</h3>
+						</div><!-- end of card14 -->
+						<div class="gallerycard card col-sm-12 col-md-6 col-lg-4 col-xl-3 px-0" data-toggle="modal" data-target="#modal-15">
+							<div class="gallerycardInner">
+								<img class="constellationssign" src="assets/images/capricornus.jpg" class="card-img-top img-fluid" id="capricornus">
+							</div>
+							<!-- card-img-top 100% width border-radius top left and -->
+							<h3 class="gallerytitle card-title text-center">Capricornus</h3>
+						</div><!-- end of card15 -->
+						<div class="gallerycard card col-sm-12 col-md-6 col-lg-4 col-xl-3 px-0" data-toggle="modal" data-target="#modal-16">
+							<div class="gallerycardInner mx-0">
+								<img class="constellationssign" src="assets/images/carina.jpg" class="card-img-top img-fluid" id="carina">
+							</div>
+							<!-- card-img-top 100% width border-radius top left and -->
+							<h3 class="gallerytitle card-title text-center">Carina</h3>
+						</div><!-- end of card16 -->
+					</div><!-- end of first 16 -->
+				</div><!-- end of right side -->
+			</div><!-- end of right side -->
+		</div>
+		
+		
+<!-- modal-1 -->
+		<div id="modal-1" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Andromeda</h5>
+						<button class="close" data-dismiss="modal">
+							<span>&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img class="constellationssign" src="assets/images/andromeda.jpg" class="image-fluid">
+						<p class="modalDescription">English Name or Description: Princess of Ethiopia</p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- modal-2 -->
+		<div id="modal-2" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Antlia</h5>
+						<button class="close" data-dismiss="modal">
+							<span>&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img class="constellationssign" src="assets/images/antlia.jpg" class="image-fluid">
+						<p class="modalDescription">English Name or Description: Air pump</p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- modal-3 -->
+		<div id="modal-3" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Apus</h5>
+						<button class="close" data-dismiss="modal">
+							<span>&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img class="constellationssign" src="assets/images/apus.jpg" class="image-fluid">
+						<p class="modalDescription">English Name or Description: Bird of Paradise</p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- modal-4 -->		
+		<div id="modal-4" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Aquarius</h5>
+						<button class="close" data-dismiss="modal">
+							<span>&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img class="constellationssign" src="assets/images/aquarius1.jpg" class="image-fluid">
+						<p class="modalDescription">English Name or Description: Water bearer</p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- modal-5 -->
+		<div id="modal-5" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Aquila</h5>
+						<button class="close" data-dismiss="modal">
+							<span>&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img class="constellationssign" src="assets/images/aquila.jpg" class="image-fluid">
+						<p class="modalDescription">English Name or Description: Eagle</p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- modal-6 -->
+		<div id="modal-6" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Ara</h5>
+						<button class="close" data-dismiss="modal">
+							<span>&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img class="constellationssign" src="assets/images/ara.jpg" class="image-fluid">
+						<p class="modalDescription">English Name or Description: Altar</p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- modal-7 -->
+		<div id="modal-7" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Aries</h5>
+						<button class="close" data-dismiss="modal">
+							<span>&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img class="constellationssign" src="assets/images/aries.jpg" class="image-fluid">
+						<p class="modalDescription">English Name or Description:Ram</p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- modal-8 -->
+		<div id="modal-8" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Auriga</h5>
+						<button class="close" data-dismiss="modal">
+							<span>&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img class="constellationssign" src="assets/images/auriga.jpg" class="image-fluid">
+						<p class="modalDescription">English Name or Description: Charioteer</p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- modal-9 -->
+		<div id="modal-9" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Boötes</h5>
+						<button class="close" data-dismiss="modal">
+							<span>&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img class="constellationssign" src="assets/images/bootes.jpg" class="image-fluid">
+						<p class="modalDescription">English Name or Description: Herdsman</p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- modal-10 -->
+		<div id="modal-10" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Caelum</h5>
+						<button class="close" data-dismiss="modal">
+							<span>&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img class="constellationssign" src="assets/images/caelum.jpg" class="image-fluid">
+						<p class="modalDescription">English Name or Description: Graving tool</p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- modal-11 -->
+		<div id="modal-11" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Camelopardalis</h5>
+						<button class="close" data-dismiss="modal">
+							<span>&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img class="constellationssign" src="assets/images/camelopardalis.jpg" class="image-fluid">
+						<p class="modalDescription">English Name or Description: Giraffe</p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- modal-12 -->
+		<div id="modal-12" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Cancer</h5>
+						<button class="close" data-dismiss="modal">
+							<span>&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img class="constellationssign" src="assets/images/cancer.jpg" class="image-fluid">
+						<p class="modalDescription">English Name or Description: Crab</p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- modal-13 -->
+		<div id="modal-13" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Canes Venatici</h5>
+						<button class="close" data-dismiss="modal">
+							<span>&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img class="constellationssign" src="assets/images/canes-venatici.jpg" class="image-fluid">
+						<p class="modalDescription">English Name or Description: Hunting Dogs</p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- modal-14 -->
+		<div id="modal-14" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Canis Major</h5>
+						<button class="close" data-dismiss="modal">
+							<span>&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img class="constellationssign" src="assets/images/canis-major.jpg" class="image-fluid">
+						<p class="modalDescription">English Name or Description: The Greater Dog</p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- modal-15 -->
+		<div id="modal-15" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Capricornus</h5>
+						<button class="close" data-dismiss="modal">
+							<span>&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img class="constellationssign" src="assets/images/capricornus.jpg" class="image-fluid">
+						<p class="modalDescription">English Name or Description: Sea Goat</p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- modal-16 -->
+		<div id="modal-16" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Carina</h5>
+						<button class="close" data-dismiss="modal">
+							<span>&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img class="constellationssign" src="assets/images/carina.jpg" class="image-fluid">
+						<p class="modalDescription">English Name or Description: Keel</p>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<footer id="copyright" class="footer text-center sticky-bottom mt-5 py-2 mb-0">
+			<p class="copyright p-1 mb-0">&copy; The Constellation Forum 2019&nbsp;&nbsp; | by Jenica Ye&nbsp;&nbsp; All Rights Reserved.&nbsp;&nbsp; <img class="html5-css" src="assets/images/html5-css--logos.png"></p>
+			<!-- p-3 refer to padding of 3px -->
+		</footer>
+
+	</div><!-- end of container fluid -->
+
+
+	<!-- bootstrap js dependencies -->
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

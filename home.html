@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	<title>The Constellation Forum | Home Page</title>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Merriweather|Parisienne&display=swap" rel="stylesheet">
+
+	<!-- animated css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+	<!-- fav icon -->
+	<link rel="icon" type="image/gif/png" href="assets/images/favicon1.png">
+
+	<!-- fontawesome icons -->
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+	<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+	<!-- inline styling syntax style="height: 75vh" -->
+	<div class="container-fluid px-0 py-0"><!-- white space (padding) on left and right of 15px as default of container fluid, use px-0 to remove padding on x axis -->
+		<div id="carousel-home" class="carouselDiv carousel slide text-justify text-center mx-0 my-0" data-ride="carousel">
+			<ol class="carousel-indicators">
+      			<li data-target="#carousel-home" data-slide-to="0" class="active"></li>
+    			<li data-target="#carousel-home" data-slide-to="1"></li>
+    			<li data-target="#carousel-home" data-slide-to="2"></li>
+    		</ol>
+			<div class="carousel-inner" role="listbox">
+				<div class="carousel-item active">
+					<div class="carousel-caption">
+						<h1 class="carouselTitle">What is The Constellation Forum?</h1>
+						<p class="carouselSubtitle text-center">A place to share knowledge and better understand constellations.</p>
+					</div>
+					<img src="assets/images/galaxy6.jpg" class="carouselImage text-justify img-fluid d-block" alt="">
+				</div>
+				<div class="carousel-item">
+					<div class="carousel-caption">
+          				<h1 class="carouselTitle">For stargazing lovers</h1>
+        				<p class="carouselSubtitle text-center">The Constellation Forum is an open community for anyone that is interested in stargazing. We help each other with your toughest questions related to constellation, share knowledge and news with each other.</p>
+    				</div>
+					<img src="assets/images/galaxy3.jpg" class="carouselImage text-justify img-fluid d-block" alt="">
+				</div>
+				<div class="carousel-item">
+					<div class="carousel-caption">
+          				<h1 class="carouselTitle">For professional astronomy</h1>
+        				<p class="carouselSubtitle text-center">The Constellation Forum is a platform where we can host constellation summits and events, it provides a open channel for professional discussion with regard to constellation internationally.</p>
+      				</div>
+					<img src="assets/images/galaxy2.jpg" class="carouselImage text-justify img-fluid d-block" alt="">
+				</div><!-- end of carousel-item -->
+				<a href="#carousel-home" class="carousel-control-prev" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				</a>
+				<a href="#carousel-home" class="carousel-control-next" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				</a>					
+			</div><!-- end of carousel-inner -->
+		</div><!-- end of carousel -->
+		<nav id="navbar" class="navbar navbar-expand-sm sticky-top">
+					<!-- bg-colorcode define customization of the nav, don't add -->
+			<a href="" class="navbar-brand">
+				<img class="m-0 logoImage" src="assets/images/logo-true.png">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+				<span class="navbar-toggler-icon"></span>
+						<!-- <i class="far fa-hand-peace"></i> -->
+			</button>
+
+			<div id="navbar-nav" class="collapse navbar-collapse">
+				<ul class="navbar-nav ml-auto">
+
+					<li class="nav-item active">
+						<a href="home.html" class="nav-link active1">
+							Home
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="forum.html" class="nav-link">
+							Forum
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="gallery.html" class="nav-link">
+							Gallery
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="legal.html" class="nav-link">
+							Legal
+						</a>
+					</li>
+					<li class="nav-item active">
+						<input type="text" placeholder="Search.." class="searchBar">
+					</li>
+				</ul>
+			</div>
+		</nav>	
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-4 col-lg-4 px-4 homeCardColDiv">
+					<div class="homecard card">
+						<img src="assets/images/stargazinglovers2.jpg" class="homeCardImage card-img-top img-fluid">
+						<div class="card-body">
+							<h3 class="forwhom card-title">For stargazing lovers</h3>
+							<p class="card-text"><button type="button" class="btn homeCardBtn"><a href=forum.html#q&a>Q&A</a></button><button type="button" class="btn homeCardBtn"><a href=forum.html#event>Event</a></button></p>
+						</div>
+					</div><!-- end of card -->
+				</div><!-- end of 4 cols -->
+				<div class="col-12 col-md-4 col-lg-4 px-4 homeCardColDiv">
+					<div class="homecard card">
+						<img src="assets/images/professionalastronomy.jpeg" class="homeCardImage card-img-top img-fluid">
+						<div class="card-body">
+							<h3 class="forwhom card-title">For professional astronomy</h3>
+							<p class="card-text"><button type="button" class="btn homeCardBtn"><a href=forum.html#q&a>Q&A</a></button><button type="button" class="btn homeCardBtn"><a href="forum.html#summit">Summit</a></button><button type="button" class="btn homeCardBtn"><a href=forum.html#event>Event</a></button></p>
+						</div>
+					</div><!-- end of card -->
+				</div><!-- end of 4 cols -->
+				<div class="col-12 col-md-4 col-lg-4 px-4 homeCardColDiv">
+					<div class="homecard card">
+						<img src="assets/images/logo-card.png" class="homeCardImage card-img-top img-fluid">
+						<div class="card-body">
+							<h3 class="forwhom card-title">Contact us</h3>
+							<p class="card-text"><button type="button" class="btn homeCardBtn"><a href=forum.html#q&a>Q&A</a></button><button type="button" class="btn homeCardBtn"><a href=legal.html#messageboard>Contact</a></button></p>
+						</div>
+					</div><!-- end of card -->
+				</div><!-- end of 4 cols -->
+			</div><!-- end of row -->
+		</div><!-- end of container -->
+
+		<footer id="copyright" class="footer text-center sticky-bottom mt-5 py-2">
+			<p class="copyright p-1 mb-0">&copy; The Constellation Forum 2019&nbsp;&nbsp; | by Jenica Ye&nbsp;&nbsp; All Rights Reserved.&nbsp;&nbsp; <img class="html5-css" src="assets/images/html5-css--logos.png"></p>
+				<!-- <img class="html5-css--logoscss" src="assets/images/html5-css--logos.png"> -->
+				<!-- p-3 refer to padding of 3px -->
+		</footer>
+	</div><!-- end of container fluid -->
+
+
+	<!-- bootstrap js dependencies -->
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

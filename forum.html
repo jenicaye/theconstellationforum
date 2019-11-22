@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	<title>The Constellation Forum | Forum Page</title>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Merriweather|Parisienne&display=swap" rel="stylesheet">
+
+	<!-- animated css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+	<!-- fav icon -->
+	<link rel="icon" type="image/gif/png" href="assets/images/favicon1.png">
+
+	<!-- fontawesome icon -->
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+	<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+	<div class="container-fluid mx-0 my-0 px-0">
+		<nav id="navbar" class="navbar navbar-expand-sm sticky-top">
+					<!-- bg-colorcode define customization of the nav, don't add -->
+			<a href="" class="navbar-brand">
+				<img class="m-0 logoImage" src="assets/images/logo-true.png">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+				<span class="navbar-toggler-icon"></span>
+						<!-- <i class="far fa-hand-peace"></i> -->
+			</button>
+
+			<div id="navbar-nav" class="collapse navbar-collapse">
+				<ul class="navbar-nav ml-auto">
+
+					<li class="nav-item">
+						<a href="home.html" class="nav-link">
+							Home
+						</a>
+					</li>
+					<li class="nav-item active">
+						<a href="forum.html" class="nav-link active1">
+							Forum
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="gallery.html" class="nav-link">
+							Gallery
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="legal.html" class="nav-link">
+							Legal
+						</a>
+					</li>
+					<li class="nav-item">
+						<input type="text" placeholder="Search.." class="searchBar">
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- https://in-the-sky.org/ -->
+		<!-- https://in-the-sky.org/data/charts/constellations_map_equ110112.png -->
+		<section id="constellationsmap">
+		 	<div class="tiles">
+    			<div class="tile" data-scale="1.6" data-image="assets/images/stargaze3.png"></div>
+    		</div>
+    	</section>
+    	<div class="row mx-0 mt-2 p-0 forumAction">
+    		<div class="col-12 offset-md-1 col-md-4 offset-lg-1 col-lg-4">
+	    		<nav class="nav2">
+					<ul>
+						<li>
+							<a class="nav3" href="#qna">Q&A</a>
+						</li>
+						<li>
+							<a class="nav3" href="#event">Event</a>
+						</li>
+						<li>
+							<a class="nav3" href="#summit">Summit</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-12 offset-md-2 col-md-4 offset-lg-2 col-lg-4 forumFormDiv">
+    			<form id="forumform">
+					<div id="qna" class="sticky-bottom form-group">Q&A
+						<div class="card" data-toggle="modal" data-target="#modal-1">
+							<p class="qna card-title text-center my-2">What is your question or link?</p>
+						</div>
+
+						<div id="modal-1" class="modal fade">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<p class="qna">What is your question or link?</p>
+										<button class="close" data-dismiss="modal">
+											<span>&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<textarea rows="10" cols="20" class="form-control" placeholder="Enter your query here..."></textarea>
+										<button class="btn2"><a class="btn2 mx-2" href="#">attach an image/ images</a></button>
+									</div>
+									<div class="modal-footer">
+										<button class="btn" data-dismiss="modal"><a href="#">Submit</a></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				
+					<div id="event" class="sticky-bottom form-group">Event
+						<div class="card" data-toggle="modal" data-target="#modal-2">
+							<p class="event card-title text-center my-2">Create an event?</p>
+						</div>
+						<div id="modal-2" class="modal fade">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<p class="event">Create an event?</p>
+										<button class="close" data-dismiss="modal">
+											<span>&times;</span>
+										</button>
+									</div>
+									<div class="event1 modal-body">
+										<label for="eventname">Event Name:</label>
+										<input type="eventname" class="form-control mb-2" placeholder="">
+										<label for="eventplace">Event Place:</label>
+										<input type="eventname" class="form-control mb-2" placeholder="">
+										<label for="eventdatentime">Date and time:</label>
+										<input type="eventdatentime" class="form-control mb-2" placeholder="">
+										<label for="eventhost">Host:</label>
+										<input type="eventname" class="form-control mb-2" placeholder="">
+										<label for="eventdetails">Details</label>
+										<textarea rows="10" cols="20" class="form-control mb-2" placeholder="Enter your event details here..."></textarea>
+									</div>
+									<div class="modal-footer">
+										<button class="btn" data-dismiss="modal"><a href="#">Submit</a></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="summit" class="summit sticky-botttom form-group">Summit
+						<div class="card" data-toggle="modal" data-target="#modal-3">
+							<p class="summit card-title text-center my-2">Create a summit?</p>
+						</div>
+						<div id="modal-3" class="modal fade">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<p class="summit">Create a summit?</p>
+										<button class="close" data-dismiss="modal">
+											<span>&times;</span>
+										</button>
+									</div>
+									<div class="summit1 modal-body">
+										<label for="summitname">Summit Name:</label>
+										<input type="summitname" class="form-control mb-2" placeholder="">
+										<label for="summitplace">Summit Place:</label>
+										<input type="summitname" class="form-control mb-2" placeholder="">
+										<label for="summitdatentime">Date and time:</label>
+										<input type="summitdatentime" class="form-control mb-2" placeholder="">
+										<label for="summithost">Host:</label>
+										<input type="summitname" class="form-control mb-2" placeholder="">
+										<label for="summitdetails">Details</label>
+										<textarea rows="10" cols="20" class="form-control mb-2" placeholder="Enter your summit details here..."></textarea>
+									</div>
+									<div class="modal-footer">
+										<button class="btn" data-dismiss="modal"><a href="#">Submit</a></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+
+	
+
+
+		<footer id="copyright" class="footer text-center sticky-bottom mt-5 py-2">
+			<p class="copyright p-1 mb-0">&copy; The Constellation Forum 201&nbsp;&nbsp; | by Jenica Ye&nbsp;&nbsp; All Rights Reserved.&nbsp;&nbsp; <img class="html5-css" src="assets/images/html5-css--logos.png"></p>
+			<!-- p-3 refer to padding of 3px -->
+		</footer>
+	</div><!-- end of container fluid -->
+
+	<!-- bootstrap js dependencies -->
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	<script>
+
+	  $('.tile')
+	    // tile mouse actions
+	    .on('mouseover', function(){
+	      $(this).children('.photo').css({'transform': 'scale('+ $(this).attr('data-scale') +')'});
+	    })
+	    .on('mouseout', function(){
+	      $(this).children('.photo').css({'transform': 'scale(1)'});
+	    })
+	    .on('mousemove', function(e){
+	      $(this).children('.photo').css({'transform-origin': ((e.pageX - $(this).offset().left) / $(this).width()) * 100 + '% ' + ((e.pageY - $(this).offset().top) / $(this).height()) * 100 +'%'});
+	    })
+	    // tiles set up
+	    .each(function(){
+	      $(this)
+	        // add a photo container
+	        .append('<div class="photo"></div>')
+	        // some text just to show zoom level on current item in this example
+	        .append('<div class="txt"><div class="x">'+ $(this).attr('data-scale') +'x</div>ZOOM ON<br>HOVER</div>')
+	        // set up a background image for each tile based on data-image attribute
+	        .children('.photo').css({'background-image': 'url('+ $(this).attr('data-image') +')'});
+	    })
+
+	</script>
+</body>
+</html>
